@@ -1,0 +1,8 @@
+{
+  "name": "Appionic",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
