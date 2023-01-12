@@ -40,14 +40,14 @@ export class EditPage implements OnInit {
     try {
       let imagen = JSON.parse(localStorage.getItem('imagen'));
       if (imagen != this.data.imagen) {
-        this.imagen = "Imagen: Editar Imagen";
+        this.imagen = "Haz click para seleccionar o hacer una imagen";
         return;
       }
     }
     catch(err) {
 
     }
-    this.imagen = "Imagen: Sin Editar Imagen";
+    this.imagen = "Haz click para seleccionar o hacer una imagen";
   }
 
   async logForm(){
